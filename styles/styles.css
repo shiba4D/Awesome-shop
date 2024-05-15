@@ -213,3 +213,51 @@ span {
     margin-right: 10px;
     
 }
+.gallary-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+}
+
+.gallary-container{
+    display: flex;   
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallary-container img{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+/* .gallary-container{
+    width: 300px;
+    border: 2px solid red;
+    margin-left: 240px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+
+/* galllary-styles */
+
+
+.single-galary{
+    flex-basis: 300px;
+    max-width: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.gallary-section{
+    border: 2px solid blue;
+    
+}
+
